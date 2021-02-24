@@ -1,0 +1,7 @@
+package example
+
+object Main extends App {
+  val ages = Seq(42, 61, 29, 64)
+  println("Hello World")
+  println(s"The oldest person is ${ages.max}")
+}
